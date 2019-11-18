@@ -38,6 +38,7 @@ div.bkgrdBox {
     border-radius:9px;
     background-color:#fff;
     min-height:100vh;
+    padding: 10px;
 }
 
 div.header {
@@ -61,11 +62,13 @@ div.infoBox {
 
 div.leftBox {
     width: 58%; 
+    min-width: 58%;
     margin: 5px;
 }
 
 div.rightBox {
     width: 38%; 
+    min-width: 38%;
     margin: 5px;
 }
 
@@ -87,6 +90,7 @@ footer {
 
 div.fullBox {
     width: 96%; 
+    min-width: 96%;
     margin: 5px;
 }
 
@@ -98,6 +102,7 @@ div.fullBox {
 div.infoContainer {
     display:flex; 
     justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 
 div.navBar {
@@ -127,4 +132,10 @@ div.centerRestrictor {
 
 #logotype {
     width:75%;
+}
+
+div.halfBox {
+    width: 48%; 
+    min-width: 48%;
+    margin: 5px;
 }
