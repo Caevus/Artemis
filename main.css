@@ -44,31 +44,87 @@ div.header {
     background-color:#1335a3;
     text-align:center;
     color:#fff;
-    font-size:150%;
-    border-radius:9px 9px 0px 0px;
+    font-size: 150%;
+    border-radius: 9px 9px 0px 0px;
+    padding: 3px 0px 3px 0px;
 }
 
 p.introText {
-    font-size:1.2em;
+    font-size: 1.2em;
 }
 
 div.infoBox {
-    padding:5px;
-    border-radius:9px;
+    padding: 5px;
+    border-radius: 9px;
     box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 div.leftBox {
-    width:58%; 
-    margin:5px;
+    width: 58%; 
+    margin: 5px;
 }
 
 div.rightBox {
-    width:38%; 
-    margin:5px;
+    width: 38%; 
+    margin: 5px;
+}
+
+p.infoText {
+    padding: 0px 5px 0px 5px;
 }
 
 footer {
-    margin-top: 30px;
+    margin-top: 20px;
     color: #fff;
+    padding: 0px 10px 0px 10px;
+}
+
+#navCurrent {
+    background-color: #fff;
+    color: #1335a3;
+    border-radius: 9px 9px 0px 0px
+}
+
+div.fullBox {
+    width: 96%; 
+    margin: 5px;
+}
+
+.infoContent {
+    width: 96%;
+    padding: 10px;
+}
+
+div.infoContainer {
+    display:flex; 
+    justify-content:space-evenly;
+}
+
+div.navBar {
+    display:flex; 
+    justify-content:right; 
+    align-items:stretch;
+}
+
+.imgRestrictor {
+    display:flex; 
+    justify-content:center;
+}
+
+div.bodyTop {
+    display:flex; 
+    justify-content: center;
+}
+
+div.centerRestrictor {
+    width:60%;
+}
+
+#logotypeRestrictor {
+    display:flex;
+    justify-content:center;
+}
+
+#logotype {
+    width:75%;
 }

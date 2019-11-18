@@ -7,40 +7,40 @@
     <body>
         <header>
             <div class="topHeader">
-                <a href="/index.html"><img id="headIcon" src="/Icon_Circle.png"></a>
-                <div style="display:flex; justify-content:right; align-items:stretch;">
-                    <a class="navLink" href="https://www.nationstates.net/region=artemis">Region Page</a> <a class="navLink" href="/map.png">Map</a> <a class="navLink" href="https://iiwiki.us/wiki/Portal:Artemis">IIWiki Page</a> <a class="navLink" href="https://forum.nationstates.net/viewtopic.php?f=23&t=474806">App Thread</a> <a class="navLink" href="/map.png">RP Index</a> <a class="navLink" href="https://forum.nationstates.net/viewtopic.php?f=4&t=474929">News Thread</a> <a class="navLink" href="https://discord.gg/GbNXv6j">Discord</a>
+                <a href="/index.html"><img id="headIcon" src="/Icon_Circle.png" alt="Artemis Home"></a>
+                <div class="navBar">
+                    <a class="navLink" href="https://www.nationstates.net/region=artemis">Region Page</a> <a class="navLink" href="/map.html">Map</a> <a class="navLink" href="https://iiwiki.us/wiki/Portal:Artemis">IIWiki Page</a> <a class="navLink" href="https://forum.nationstates.net/viewtopic.php?f=23&t=474806">App Thread</a> <a class="navLink" href="/map.png">RP Index</a> <a class="navLink" href="https://forum.nationstates.net/viewtopic.php?f=4&t=474929">News Thread</a> <a class="navLink" href="https://discord.gg/GbNXv6j">Discord</a>
                 </div>
             </div>
         </header>
         <div class="bkgrdBox"> <!-- All inclusive white box. -->
-            <div style="display:flex; justify-content: center;"> <!-- Top portion w/ Logo & Intro -->
-                <div style="width:60%;">
-                    <div style="margin:auto; display:flex; justify-content:center;"> <!-- This keeps the logo centered. -->
-                        <div style="width:75%;">
-                            <img src="https://iiwiki.us/mediawiki/images/b/b4/Artemis_Logotype.png" style="width:100%;"/> <!-- Logo image. 100% width required so it doesn't sneak out of the div. -->
+            <div class="bodyTop"> <!-- Top portion w/ Logo & Intro -->
+                <div class="centerRestrictor">
+                    <div id="logotypeRestrictor"> <!-- This keeps the logo centered. -->
+                        <div id="logotype"> <!-- For some reason the flexbox doesn't apply directly to images. So this makes sure the flexbox applies. -->
+                            <img src="/Logotype.png" style="width:100%;"  alt="Artemis Logo"/> <!-- Logo image. 100% width required so it doesn't sneak out of the div. -->
                         </div>
                     </div>
                     <p class="introText" style="font-size:1.2em;">Artemis is an online roleplaying and worldbuilding community focused on storytelling through fictional geopolitical intrigue and interaction.</p>
                 </div>
             </div>
-            <div style="display:flex; justify-content: center;"> <!-- Informational boxes. -->
+            <div class="infoContainer"> <!-- Informational boxes. -->
                 <div class="leftBox"> <!-- Continents Box -->
                     <div class="infoBox">
                         <div class="header"><strong>Continents</strong></div>
-                            <p>Artemis primarily focuses on the three Eastern Continents of the world: Borealis, Irathava, and Nepantia.</p>
+                            <p class="infoText">Artemis primarily focuses on the three Eastern Continents of the world: Borealis, Irathava, and Nepantia.</p>
                     </div>
                 </div>
                 <div class="rightBox"> <!-- Nations Box -->
                     <div class="infoBox">
                         <div class="header"><strong>Nations</strong></div>
-                        <p>Artemis currently has 13 nations.</p>
+                        <p class="infoText">Artemis currently has 13 nations.</p>
                     </div>
                 </div>
             </div>
         </div>
         <footer>
-            Property of Artemis - 2019 <span style="float:right;">Revision 0.4 - Nov. 17, 2019</span>
+            Property of Artemis - 2019 <span style="float:right;">Revision 0.6 - Nov. 17, 2019</span>
         </footer>
     </body>
 </html>
