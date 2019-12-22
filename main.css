@@ -42,7 +42,7 @@ div.bkgrdBox {
 }
 
 div.header {
-    background-color:#1335a3;
+    background-color: #1335a3;
     text-align:center;
     color:#fff;
     font-size: 150%;
@@ -138,4 +138,70 @@ div.halfBox {
     width: 47%; 
     min-width: 46%;
     margin: 5px;
+}
+
+ul.navBarNew {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 80px;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.navBarNew li {
+    float: right;
+}
+
+.navBarNew a {
+    display: block;
+    padding: 8px;
+    color: #fff;
+    text-align:center;
+    padding: 20px 24px;
+    text-decoration: none;
+}
+
+.navBarNew a:active {
+    background-color: #40c8d3;
+}
+
+.navBarNew a:hover, .dropdown:hover .dropbtn{
+    background-color: #fff;
+    color: #1335a3;
+}
+
+.navBarContainer {
+    display: inline-block;
+    width: 100%;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1335a3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 20px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #fff;
+    color: #1335a3;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
 }
