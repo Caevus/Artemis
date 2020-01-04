@@ -1,27 +1,28 @@
 body {
-    background-color:#1335a3; 
+    background-color: #1335a3; 
     font-family: Arial, Helvetica, sans-serif;
 }
 
 div.topHeader {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 #headIcon {
-    width:65px; 
-    float:left;
+    width: 65px; 
+    float: left;
 }
 
 a.navLink {
-    float:right;
+    float: right;
     margin: 0px 10px 0px 10px;
     width: 140px;
     text-align: center;
-    color:#fff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 130%;
     text-decoration: none;
     padding: 5px;
@@ -35,16 +36,17 @@ a.navLink:hover {
 
 div.bkgrdBox {
     box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-    border-radius:9px;
-    background-color:#fff;
+    border-radius: 9px;
+    background-color: #fff;
     min-height:100vh;
     padding: 10px;
+    padding-bottom: 30px;
 }
 
 div.header {
-    background-color:#1335a3;
-    text-align:center;
-    color:#fff;
+    background-color: #1335a3;
+    text-align: center;
+    color: #fff;
     font-size: 150%;
     border-radius: 9px 9px 0px 0px;
     padding: 3px 0px 3px 0px;
@@ -55,9 +57,10 @@ p.introText {
 }
 
 div.infoBox {
-    padding: 5px;
+    padding: 10px;
     border-radius: 9px;
     box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    height: 100%;
 }
 
 div.leftBox {
@@ -70,10 +73,6 @@ div.rightBox {
     width: 38%; 
     min-width: 38%;
     margin: 5px;
-}
-
-p.infoText {
-    padding: 0px 5px 0px 5px;
 }
 
 footer {
@@ -100,42 +99,80 @@ div.fullBox {
 }
 
 div.infoContainer {
-    display:flex; 
-    justify-content:space-evenly;
+    display: flex; 
+    justify-content: space-evenly;
+    align-content: stretch;
     flex-wrap: wrap;
 }
 
 div.navBar {
-    display:flex; 
-    justify-content:right; 
-    align-items:stretch;
+    display: flex; 
+    justify-content: right; 
+    align-items: stretch;
 }
 
 .imgRestrictor {
-    display:flex; 
-    justify-content:center;
+    display: flex; 
+    justify-content: center;
 }
 
 div.bodyTop {
-    display:flex; 
+    display: flex; 
     justify-content: center;
 }
 
 div.centerRestrictor {
-    width:60%;
+    width: 60%;
 }
 
 #logotypeRestrictor {
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
 }
 
 #logotype {
-    width:75%;
+    width: 75%;
 }
 
 div.halfBox {
     width: 47%; 
     min-width: 46%;
     margin: 5px;
+}
+
+.navBar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 15px;
+}
+
+.navBar ul li {
+    list-style-type: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+}
+
+.navBar ul li a:hover {
+    color: #1335a3;;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.infoBox h1 {
+    font-size: 1.4em;
+    margin-bottom: 0.3em;
+}
+
+#countriesList li {
+    list-style-type: none;
+    margin: 10px 0;
 }
