@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div.topHeader {
+.topHeader {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
@@ -14,7 +14,7 @@ div.topHeader {
     float: left;
 }
 
-a.navLink {
+.navLink {
     float: right;
     margin: 0px 10px 0px 10px;
     width: 140px;
@@ -28,13 +28,13 @@ a.navLink {
     padding: 5px;
 }
 
-a.navLink:hover {
+.navLink:hover {
     background-color: #fff;
     color: #1335a3;
     border-radius: 9px 9px 0px 0px
 }
 
-div.bkgrdBox {
+.bkgrdBox {
     box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
     border-radius: 9px;
     background-color: #fff;
@@ -43,7 +43,7 @@ div.bkgrdBox {
     padding-bottom: 30px;
 }
 
-div.header {
+.header {
     background-color: #1335a3;
     text-align: center;
     color: #fff;
@@ -52,24 +52,24 @@ div.header {
     padding: 3px 0px 3px 0px;
 }
 
-p.introText {
+.introText {
     font-size: 1.2em;
 }
 
-div.infoBox {
+.infoBox {
     padding: 10px;
     border-radius: 9px;
     box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
     height: 100%;
 }
 
-div.leftBox {
+.leftBox {
     width: 58%; 
     min-width: 58%;
     margin: 5px;
 }
 
-div.rightBox {
+.rightBox {
     width: 38%; 
     min-width: 38%;
     margin: 5px;
@@ -87,25 +87,22 @@ footer {
     border-radius: 9px 9px 0px 0px
 }
 
-div.fullBox {
+.fullBox {
     width: 96%; 
     min-width: 96%;
-    margin: 5px;
+    margin: 15px 5px;
 }
 
-.infoContent {
-    width: 96%;
-    padding: 10px;
-}
-
-div.infoContainer {
+.infoContainer {
     display: flex; 
     justify-content: space-evenly;
     align-content: stretch;
     flex-wrap: wrap;
+    width: 96%;
+    padding: 10px;
 }
 
-div.navBar {
+.navBar {
     display: flex; 
     justify-content: right; 
     align-items: stretch;
@@ -116,12 +113,12 @@ div.navBar {
     justify-content: center;
 }
 
-div.bodyTop {
+.bodyTop {
     display: flex; 
     justify-content: center;
 }
 
-div.centerRestrictor {
+.centerRestrictor {
     width: 60%;
 }
 
@@ -134,10 +131,10 @@ div.centerRestrictor {
     width: 75%;
 }
 
-div.halfBox {
+.halfBox {
     width: 47%; 
     min-width: 46%;
-    margin: 5px;
+    margin: 15px 5px;
 }
 
 .navBar ul {
@@ -175,4 +172,8 @@ div.halfBox {
 #countriesList li {
     list-style-type: none;
     margin: 10px 0;
+}
+
+.infoBox {
+    max-height: 100%;
 }
